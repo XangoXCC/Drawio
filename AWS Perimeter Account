@@ -1,4 +1,4 @@
-<mxfile modified="2021-07-29T19:44:48.520Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="NAs7R5W39pYX4EcaMwom" version="14.8.6" type="github">
+<mxfile modified="2021-07-29T19:46:27.077Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="M1Q2tijB10-LkVeslrN8" version="14.8.6" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1867" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="30" y="-810" width="174.6" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-14" value="Shared VPC" style="swimlane;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-270" width="400" height="240" as="geometry" />
+          <mxGeometry x="110" y="-270" width="400" height="240" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-7" value="AWS VPN public Endpoint&lt;br&gt;&lt;span&gt;15.222.77.78&lt;br&gt;Internal Endpoint&lt;br&gt;169.254.24.168/30&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-14">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
@@ -67,7 +67,7 @@
           <mxGeometry x="570" y="-820" width="174.6" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-36" value="Shared VPC" style="swimlane;fontSize=10;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-280" width="400" height="240" as="geometry" />
+          <mxGeometry x="700" y="-280" width="420" height="240" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-37" value="AWS VPN public Endpoint&lt;br&gt;&lt;span&gt;15.222.77.78&lt;br&gt;Internal Endpoint&lt;br&gt;169.254.24.168/30&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-36">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
