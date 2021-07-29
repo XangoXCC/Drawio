@@ -1,13 +1,21 @@
-<mxfile modified="2021-07-29T19:03:07.166Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="zuhVhzxf7zK-nV9-t_dV" version="14.8.6" type="github">
+<mxfile modified="2021-07-29T19:08:22.755Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55" etag="J5a5wLL7vA3DSUi724vx" version="14.8.6" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1443" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1423" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-21" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-10" target="9l7ZJe91tuLGdchl9NnN-9">
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-46" value="Perimeter VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-690" width="480" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="UEzPUAAOIrF-is8g5C7q-175" value="Perimeter VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-680" width="410" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=4;entryX=0.004;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-10" target="9l7ZJe91tuLGdchl9NnN-1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="-580" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="300" y="-740" />
+              <mxPoint x="30" y="-716" />
+              <mxPoint x="30" y="-542" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -47,71 +55,16 @@
         <mxCell id="9l7ZJe91tuLGdchl9NnN-72" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-14">
           <mxGeometry x="40" y="78" width="21.6" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-1" value="Port 1 - Internet 100.96.192.8/26" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-570" width="120" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-20" value="IPSecTunnel" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.057;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-71" target="9l7ZJe91tuLGdchl9NnN-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="-530" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="-350" />
+              <mxPoint x="30" y="-350" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-2" value="Port 2 - Private 100.96.192.69/26" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-494" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-3" value="Port 3 - Mgmt" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-410" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UEzPUAAOIrF-is8g5C7q-175" value="Perimeter VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;labelBackgroundColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="120" y="-680" width="400" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-6" value="TGW-VPN1 169.254.24.170/30" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-530" width="89.99999999999999" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-4" value="Port 4 - DMZ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-370" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;elbow=vertical;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-9" target="9l7ZJe91tuLGdchl9NnN-1">
-          <mxGeometry x="120" y="-720" as="geometry">
-            <Array as="points">
-              <mxPoint x="140" y="-648" />
-              <mxPoint x="140" y="-535" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-9" value="AWS IGW" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;fontSize=10;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="265.5" y="-720" width="69" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-17" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="280" y="-620" width="220" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-8" value="AWS Fortinet az - A" style="swimlane;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-17">
-          <mxGeometry width="220" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-12" value="Firewall Route Table/Policies" style="swimlane;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-17">
-          <mxGeometry x="15.170000000000002" y="40" width="194.83" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-13" value="10.1.x.x/16 -&amp;gt; tgw-vpn1 (via BGP)&lt;br&gt;10.2.x.x/16 -&amp;gt; tgw-vpn1 (via BGP)&lt;br&gt;10.3.x.x/16 -&amp;gt; tgw-vpn1 (via BGP)&lt;br&gt;&lt;br&gt;0.0.0.0/0 -&amp;gt; Port1 (static via rule)&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-17">
-          <mxGeometry x="15.170000000000002" y="110" width="194.83" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-23" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-1" target="9l7ZJe91tuLGdchl9NnN-1">
-          <mxGeometry x="120" y="-720" as="geometry" />
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-24" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-8" target="9l7ZJe91tuLGdchl9NnN-6">
-          <mxGeometry x="120" y="-720" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="-530" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-34" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-35" target="9l7ZJe91tuLGdchl9NnN-53">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="840" y="-750" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=4;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-35" target="9l7ZJe91tuLGdchl9NnN-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-35" value="Internet" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;fontSize=10;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="570" y="-820" width="174.6" height="110" as="geometry" />
@@ -149,9 +102,6 @@
         <mxCell id="9l7ZJe91tuLGdchl9NnN-65" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-36">
           <mxGeometry x="40" y="78" width="21.6" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-46" value="Perimeter VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;labelBackgroundColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-690" width="480" height="400" as="geometry" />
-        </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-47" value="Port 1 - Internet 100.96.192.8/26" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="700" y="-580" width="120" height="70" as="geometry" />
         </mxCell>
@@ -185,16 +135,8 @@
         <mxCell id="9l7ZJe91tuLGdchl9NnN-51" value="Port 4 - DMZ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="700" y="-380" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;elbow=vertical;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-53" target="9l7ZJe91tuLGdchl9NnN-47">
-          <mxGeometry x="660" y="-730" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="-658" />
-              <mxPoint x="680" y="-545" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-53" value="AWS IGW" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;fontSize=10;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="805.5" y="-730" width="69" height="72" as="geometry" />
+          <mxGeometry x="627.8" y="-570" width="59" height="64" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-54" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="820" y="-630" width="220" height="300" as="geometry" />
@@ -243,6 +185,46 @@
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-67" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" vertex="1" parent="1">
           <mxGeometry x="1090" y="-528" width="21.6" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-1" value="Port 1 - Internet 100.96.192.8/26" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-570" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-2" value="Port 2 - Private 100.96.192.69/26" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-494" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-3" value="Port 3 - Mgmt" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-6" value="TGW-VPN1 169.254.24.170/30" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-530" width="89.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-4" value="Port 4 - DMZ" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-9" value="AWS IGW" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58534;gradientColor=none;fontSize=10;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="51" y="-566" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="-620" width="220" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-8" value="AWS Fortinet az - A" style="swimlane;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-17">
+          <mxGeometry width="220" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-12" value="Firewall Route Table/Policies" style="swimlane;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-17">
+          <mxGeometry x="15.170000000000002" y="40" width="194.83" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-13" value="&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; Traffic enters from Internet &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Interface and routes back out &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;IPSec tunnel to AWS hosted &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;VPN gateway. AWS limitation requries&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;10.1.x.x/16 -&amp;gt; tgw-vpn1 (via BGP)&lt;br&gt;10.2.x.x/16 -&amp;gt; tgw-vpn1 (via BGP)&lt;br&gt;10.3.x.x/16 -&amp;gt; tgw-vpn1 (via BGP)&lt;br&gt;&lt;br&gt;0.0.0.0/0 -&amp;gt; Port1 (static via rule)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-17">
+          <mxGeometry x="15.17" y="70" width="194.83" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-23" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=6;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-1" target="9l7ZJe91tuLGdchl9NnN-1">
+          <mxGeometry x="120" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-24" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeWidth=4;" edge="1" parent="1" source="9l7ZJe91tuLGdchl9NnN-8" target="9l7ZJe91tuLGdchl9NnN-6">
+          <mxGeometry x="120" y="-720" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-71" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" vertex="1" parent="1">
           <mxGeometry x="190" y="-528" width="12.6" height="14" as="geometry" />
