@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T17:01:31.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78" etag="DddK21AWOyYbzcHPTX6G" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-30T17:02:32.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36 Edg/92.0.902.78" etag="S0DK29y9TZxk99SC_5YF" version="14.9.7" type="github">
   <diagram id="q6EtwT-zD9d8GnBGvhUz" name="Page-1">
-    <mxGraphModel dx="1129" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1637" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
           <mxGeometry x="31.25" y="144" width="47.5" height="44" as="geometry" />
         </mxCell>
         <mxCell id="LpFCpJJtLy2Ta8kGQRxm-7" value="AWS Cloud" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="400" y="40" width="720" height="490" as="geometry" />
+          <mxGeometry x="400" y="40" width="720" height="420" as="geometry" />
         </mxCell>
         <mxCell id="LpFCpJJtLy2Ta8kGQRxm-27" value="Perimeter VPC" style="swimlane;startSize=23;fillColor=#f8cecc;strokeColor=#b85450;" parent="LpFCpJJtLy2Ta8kGQRxm-7" vertex="1">
           <mxGeometry x="30" y="110" width="200" height="160" as="geometry" />
@@ -110,7 +110,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LpFCpJJtLy2Ta8kGQRxm-8" value="ISED Legacy" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="190" y="550" width="890" height="290" as="geometry" />
+          <mxGeometry x="400" y="480" width="650" height="240" as="geometry" />
         </mxCell>
         <mxCell id="9IwPV1PEUAf9_cNait5j-22" value="ISED Firewall" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;" parent="LpFCpJJtLy2Ta8kGQRxm-8" vertex="1">
           <mxGeometry x="30" y="40" width="120" height="130" as="geometry" />
@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9IwPV1PEUAf9_cNait5j-28" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/active_directory.svg;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="500" y="540" width="50" height="42.5" as="geometry" />
+          <mxGeometry x="710" y="470" width="50" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="u41iJmBul1NQoNp-y63D-34" value="IPSec Tunnel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="u41iJmBul1NQoNp-y63D-24">
           <mxGeometry relative="1" as="geometry">
@@ -169,7 +169,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="140" y="365" />
-              <mxPoint x="140" y="672" />
+              <mxPoint x="140" y="602" />
             </Array>
           </mxGeometry>
         </mxCell>
