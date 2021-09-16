@@ -1,6 +1,6 @@
-<mxfile modified="2021-09-16T16:49:54.116Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44" etag="pzCwvemGP0OOfw5wNpmC" version="15.1.4" type="github">
+<mxfile modified="2021-09-16T16:50:10.655Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44" etag="EvpWOIF4LkzKfmaDnoQG" version="15.1.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1801" dy="2289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2161" dy="2416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -339,7 +339,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-89" value="Virtual Private Gateway" style="swimlane;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="810" y="-690" width="140" height="757" as="geometry" />
+          <mxGeometry x="810" y="-680" width="140" height="747" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-91" value="Direct Connect &lt;br&gt;Virtual Interface&lt;br&gt;- Secondary" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/NetworkInterfaceCard.svg;" vertex="1" parent="uSfW8OYd8DQsDEwRAvVg-89">
           <mxGeometry x="56.8" y="563" width="26.4" height="30" as="geometry" />
