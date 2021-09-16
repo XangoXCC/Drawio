@@ -1,4 +1,4 @@
-<mxfile modified="2021-09-16T16:50:10.655Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44" etag="EvpWOIF4LkzKfmaDnoQG" version="15.1.4" type="github">
+<mxfile modified="2021-09-16T16:54:39.651Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.44" etag="yqmZR38EEREScuprPoLn" version="15.1.4" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="2161" dy="2416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="9l7ZJe91tuLGdchl9NnN-65" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" parent="9l7ZJe91tuLGdchl9NnN-36" vertex="1">
           <mxGeometry x="360" y="100" width="21.6" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-89" value="Public Internet Traffic - HTTP(s)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=4;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;exitX=-0.001;exitY=0.168;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;exitPerimeter=0;" parent="1" source="uSfW8OYd8DQsDEwRAvVg-16" target="9l7ZJe91tuLGdchl9NnN-86" edge="1">
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-89" value="Public Internet Traffic - HTTP(s)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=4;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;exitX=-0.001;exitY=0.168;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;exitPerimeter=0;startSize=3;endSize=3;" parent="1" source="uSfW8OYd8DQsDEwRAvVg-16" target="9l7ZJe91tuLGdchl9NnN-86" edge="1">
           <mxGeometry x="-0.7098" relative="1" as="geometry">
             <mxPoint x="590" y="-627" as="targetPoint" />
             <Array as="points">
@@ -191,16 +191,21 @@
           <mxGeometry x="20" y="240" width="552.41" height="190" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-56" value="Firewall Policies" style="swimlane;fontSize=10;verticalAlign=top;" parent="9l7ZJe91tuLGdchl9NnN-55" vertex="1">
-          <mxGeometry x="9.88" y="30" width="230.12" height="140" as="geometry" />
+          <mxGeometry x="9.88" y="40" width="230.12" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-57" value="SC2G in on PORT 2 Native - &amp;gt; TGW&lt;br&gt;&lt;br&gt;Source SC2G-VPN-CE1/2 - &amp;gt; destination TGW&lt;br&gt;&lt;br&gt;0.0.0.0/0 -&amp;gt; Port2 (static via rule)&lt;br&gt;&lt;br&gt;OnPrem Range -&amp;gt; sc2g-vpn1 (static)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="9l7ZJe91tuLGdchl9NnN-56" vertex="1">
-          <mxGeometry x="5.06" y="25" width="214.94" height="100" as="geometry" />
+          <mxGeometry x="5.06" y="25" width="214.94" height="95" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-25" value="Firewall Route" style="swimlane;fontSize=10;verticalAlign=top;" vertex="1" parent="9l7ZJe91tuLGdchl9NnN-55">
-          <mxGeometry x="252.4135294117647" y="30" width="285.06" height="140" as="geometry" />
+          <mxGeometry x="252.4135294117647" y="36" width="285.06" height="140" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-26" value="BGP Learning&lt;br&gt;AWS On-Prem - Learned via TGW-VPN&amp;nbsp;&lt;br&gt;ISED On-Prem - Learned via SC2G-VPN&lt;br&gt;&lt;br&gt;STATIC&lt;br&gt;10.255.255.254 -&amp;gt; Port 2&lt;br&gt;Direct Connect Outside IP CE1 -&amp;gt; Port 2&amp;nbsp;&lt;br&gt;DirectConnect Outside IP CE2 -&amp;gt; Port 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="uSfW8OYd8DQsDEwRAvVg-25">
           <mxGeometry x="5.060000000000002" y="25" width="275.06" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=blockThin;startFill=1;endArrow=blockThin;endFill=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=2;startSize=2;" edge="1" parent="9l7ZJe91tuLGdchl9NnN-55" source="9l7ZJe91tuLGdchl9NnN-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="138" y="40" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-68" value="PUBLIC Subnet" style="swimlane;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="oZsSvBxQraPGQt4Ozmy0-5">
           <mxGeometry x="20" y="30" width="1060" height="140" as="geometry" />
@@ -280,7 +285,7 @@
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-116" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#A166FF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.elastic_network_interface;" vertex="1" parent="oZsSvBxQraPGQt4Ozmy0-5">
           <mxGeometry x="631" y="170" width="19" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-118" value="" style="html=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5">
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-118" value="" style="html=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;endSize=3;startSize=3;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="220" y="462" as="sourcePoint" />
             <mxPoint x="631" y="462" as="targetPoint" />
@@ -298,7 +303,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-122" value="" style="html=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5">
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-122" value="" style="html=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=3;endSize=3;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="720" y="430" as="sourcePoint" />
             <mxPoint x="720" y="380" as="targetPoint" />
@@ -312,15 +317,17 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-124" value="" style="html=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.424;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5" target="uSfW8OYd8DQsDEwRAvVg-16">
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-124" value="" style="html=1;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.424;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;endSize=3;startSize=3;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5" target="uSfW8OYd8DQsDEwRAvVg-16">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="690" y="380" as="sourcePoint" />
             <mxPoint x="690" y="380" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.324;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=blockThin;startFill=1;endArrow=blockThin;endFill=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5" source="9l7ZJe91tuLGdchl9NnN-48" target="9l7ZJe91tuLGdchl9NnN-50">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;endArrow=blockThin;endFill=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=2;startSize=2;" edge="1" parent="oZsSvBxQraPGQt4Ozmy0-5" source="9l7ZJe91tuLGdchl9NnN-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-95" value="Internet Gateway" style="swimlane;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2050" y="-690" width="130" height="233" as="geometry" />
@@ -373,7 +380,7 @@
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-103" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;" vertex="1" parent="1">
           <mxGeometry x="1169" y="-481" width="21.6" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-106" value="Public Internet traffic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=blockThin;endFill=1;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="uSfW8OYd8DQsDEwRAvVg-105">
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-106" value="Public Internet traffic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=blockThin;endFill=1;strokeWidth=3;fillColor=#e51400;strokeColor=#B20000;startSize=3;endSize=3;" edge="1" parent="1" source="uSfW8OYd8DQsDEwRAvVg-105">
           <mxGeometry x="-0.4751" relative="1" as="geometry">
             <mxPoint x="1700" y="-250" as="targetPoint" />
             <Array as="points">
@@ -395,7 +402,7 @@
         <mxCell id="9l7ZJe91tuLGdchl9NnN-90" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VPN_Gateway.svg;direction=south;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="360.9999999999999" y="-439.9999999999999" width="24" height="21.6" as="geometry" />
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;labelPosition=right;verticalLabelPosition=bottom;verticalAlign=top;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9l7ZJe91tuLGdchl9NnN-90">
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;startArrow=blockThin;startFill=1;endArrow=none;endFill=0;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;labelPosition=right;verticalLabelPosition=bottom;verticalAlign=top;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=3;endSize=3;" edge="1" parent="1" target="9l7ZJe91tuLGdchl9NnN-90">
           <mxGeometry x="0.4634" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="770" y="-205" />
