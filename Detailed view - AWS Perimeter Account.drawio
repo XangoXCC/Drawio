@@ -1,6 +1,6 @@
-<mxfile modified="2021-09-18T12:45:41.932Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.47" etag="CJQ6KLvdJxGEV1WHLL-2" version="15.2.9" type="github">
+<mxfile modified="2021-09-23T18:36:40.070Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="WOaME0wU2jy2gPLKAwvZ" version="15.2.9" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="2871" dy="2764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2174" dy="2407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,16 +131,16 @@
           <mxGeometry x="20" y="240" width="552.41" height="190" as="geometry" />
         </mxCell>
         <mxCell id="9l7ZJe91tuLGdchl9NnN-56" value="Firewall Policies" style="swimlane;fontSize=10;verticalAlign=top;" parent="9l7ZJe91tuLGdchl9NnN-55" vertex="1">
-          <mxGeometry x="9.88" y="40" width="230.12" height="130" as="geometry" />
+          <mxGeometry x="9.88" y="40" width="260.12" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="9l7ZJe91tuLGdchl9NnN-57" value="SC2G in on PORT 2 Native - &amp;gt; TGW&lt;br&gt;&lt;br&gt;Source SC2G-VPN-CE1/2 - &amp;gt; destination TGW&lt;br&gt;&lt;br&gt;0.0.0.0/0 -&amp;gt; Port2 (static via rule)&lt;br&gt;&lt;br&gt;OnPrem Range -&amp;gt; sc2g-vpn1 (static)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="9l7ZJe91tuLGdchl9NnN-56" vertex="1">
-          <mxGeometry x="5.06" y="25" width="214.94" height="95" as="geometry" />
+        <mxCell id="9l7ZJe91tuLGdchl9NnN-57" value="0.0.0.0/0 -&amp;gt; Port2 (SC2G Internet if NOT OCP Source)&lt;br&gt;0.0.0.0/0 -&amp;gt; Port1 (AWS Internet if OCP source)&lt;br&gt;On-Prem routes -&amp;gt; CE-TIP-VPN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="9l7ZJe91tuLGdchl9NnN-56" vertex="1">
+          <mxGeometry x="5.06" y="25" width="254.94" height="95" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-25" value="Firewall Route" style="swimlane;fontSize=10;verticalAlign=top;" parent="9l7ZJe91tuLGdchl9NnN-55" vertex="1">
-          <mxGeometry x="252.4135294117647" y="36" width="285.06" height="140" as="geometry" />
+          <mxGeometry x="320" y="36" width="217.47" height="140" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-26" value="BGP Learning&lt;br&gt;AWS On-Prem - Learned via TGW-VPN&amp;nbsp;&lt;br&gt;ISED On-Prem - Learned via SC2G-VPN&lt;br&gt;&lt;br&gt;STATIC&lt;br&gt;10.255.255.254 -&amp;gt; Port 2&lt;br&gt;Direct Connect Outside IP CE1 -&amp;gt; Port 2&amp;nbsp;&lt;br&gt;DirectConnect Outside IP CE2 -&amp;gt; Port 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="uSfW8OYd8DQsDEwRAvVg-25" vertex="1">
-          <mxGeometry x="5.060000000000002" y="25" width="275.06" height="100" as="geometry" />
+          <mxGeometry x="5.06" y="25" width="204.94" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=blockThin;startFill=1;endArrow=blockThin;endFill=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;endSize=2;startSize=2;exitX=0.314;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;" parent="9l7ZJe91tuLGdchl9NnN-55" source="9l7ZJe91tuLGdchl9NnN-50" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -214,8 +214,8 @@
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-3" value="Firewall Route Table/Policies" style="swimlane;fontSize=10;verticalAlign=top;" parent="uSfW8OYd8DQsDEwRAvVg-2" vertex="1">
           <mxGeometry x="242" y="34.542" width="208.28" height="126.95800000000001" as="geometry" />
         </mxCell>
-        <mxCell id="uSfW8OYd8DQsDEwRAvVg-5" value="0.0.0.0/0 - &amp;gt; Port 2&lt;br&gt;10.x.0.0/8 -&amp;gt; Port 2&lt;br&gt;100.96.192.1/26 -&amp;gt; Port2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="uSfW8OYd8DQsDEwRAvVg-3" vertex="1">
-          <mxGeometry y="20.700500000000005" width="145.99" height="52.1075" as="geometry" />
+        <mxCell id="uSfW8OYd8DQsDEwRAvVg-5" value="0.0.0.0/0 - &amp;gt; Port 2 if &lt;br&gt;&lt;br&gt;10.x.0.0/8 -&amp;gt; Port 2&lt;br&gt;100.96.192.1/26 -&amp;gt; Port2&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;" parent="uSfW8OYd8DQsDEwRAvVg-3" vertex="1">
+          <mxGeometry y="20.7" width="180" height="89.3" as="geometry" />
         </mxCell>
         <mxCell id="uSfW8OYd8DQsDEwRAvVg-7" value="Port 1 - Public&lt;br&gt;3.98.182.63 NAT to 100.96.192.37&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="oZsSvBxQraPGQt4Ozmy0-5" vertex="1">
           <mxGeometry x="631" y="170" width="129" height="70" as="geometry" />
