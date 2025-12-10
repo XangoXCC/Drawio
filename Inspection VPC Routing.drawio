@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
   <diagram name="Page-1" id="Hp7pLcwXmxpAk3g6idL7">
-    <mxGraphModel dx="1442" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,7 +190,7 @@
           <mxGeometry height="30" width="200" y="120" as="geometry" />
         </mxCell>
         <mxCell id="4HlUSdvZnNLibegCANkv-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="DEV VPC Route Tables&amp;nbsp; -&amp;nbsp; PROD and TEST are all derivatives of this" vertex="1">
-          <mxGeometry height="380" width="520" x="1700" y="940" as="geometry" />
+          <mxGeometry height="380" width="520" x="400" y="880" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-69" parent="4HlUSdvZnNLibegCANkv-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="APP_DEV_azA_subnet" vertex="1">
           <mxGeometry height="90" width="155" x="21" y="40" as="geometry" />
@@ -409,11 +409,11 @@
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-219" edge="1" parent="4HlUSdvZnNLibegCANkv-3" source="_C9JWqe0jPJ9WMGEOEnl-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.995;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" target="_C9JWqe0jPJ9WMGEOEnl-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_C9JWqe0jPJ9WMGEOEnl-167" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Flow Diagram" vertex="1">
-          <mxGeometry height="340" width="580" x="1100" y="940" as="geometry" />
+        <mxCell id="_C9JWqe0jPJ9WMGEOEnl-167" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="P2C - Flow Diagram" vertex="1">
+          <mxGeometry height="630" width="1060" x="980" y="960" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-168" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Firewall azA" vertex="1">
-          <mxGeometry height="100" width="120" x="190" y="70" as="geometry" />
+          <mxGeometry height="100" width="120" x="300" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-169" parent="_C9JWqe0jPJ9WMGEOEnl-168" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" value="Port 1" vertex="1">
           <mxGeometry height="20" width="120" y="20" as="geometry" />
@@ -427,8 +427,16 @@
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-172" parent="_C9JWqe0jPJ9WMGEOEnl-168" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Port 4" vertex="1">
           <mxGeometry height="20" width="120" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-3" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="_C9JWqe0jPJ9WMGEOEnl-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" target="_C9JWqe0jPJ9WMGEOEnl-186" value="From FWeb&lt;div&gt;To AWS Target&lt;/div&gt;&lt;div&gt;Uses SNAT&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.3333" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-178" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="WAF azA" vertex="1">
-          <mxGeometry height="60" width="120" x="190" y="190" as="geometry" />
+          <mxGeometry height="60" width="120" x="530" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-179" parent="_C9JWqe0jPJ9WMGEOEnl-178" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#333333;" value="Port 1" vertex="1">
           <mxGeometry height="20" width="120" y="20" as="geometry" />
@@ -436,29 +444,62 @@
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-180" parent="_C9JWqe0jPJ9WMGEOEnl-178" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Port 2" vertex="1">
           <mxGeometry height="20" width="120" y="40" as="geometry" />
         </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-1" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="_C9JWqe0jPJ9WMGEOEnl-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="_C9JWqe0jPJ9WMGEOEnl-186" value="Inbound&lt;div&gt;Request&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-184" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=1;whiteSpace=wrap;html=1;" value="Direct Connect Gateway&lt;div&gt;(Internet and on-prem)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="160" x="390" y="190" as="geometry" />
+          <mxGeometry height="40" width="160" x="850" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-2" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="_C9JWqe0jPJ9WMGEOEnl-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" target="_C9JWqe0jPJ9WMGEOEnl-178" value="From SC2G&lt;div&gt;targets FWeb&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.4284" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-5" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="_C9JWqe0jPJ9WMGEOEnl-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="_C9JWqe0jPJ9WMGEOEnl-208" value="Traffic to target">
+          <mxGeometry relative="1" x="-0.6046" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-7" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="_C9JWqe0jPJ9WMGEOEnl-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_C9JWqe0jPJ9WMGEOEnl-180" value="Return traffic based on SNAT">
+          <mxGeometry relative="1" x="-0.0231" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-186" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="TGW" vertex="1">
-          <mxGeometry height="240" width="40" x="140" y="60" as="geometry" />
+          <mxGeometry height="120" width="120" x="660" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="_C9JWqe0jPJ9WMGEOEnl-187" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="DEV Resources" vertex="1">
-          <mxGeometry height="50" width="120" x="10" y="40" as="geometry" />
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-6" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="_C9JWqe0jPJ9WMGEOEnl-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_C9JWqe0jPJ9WMGEOEnl-186" value="Response from Target">
+          <mxGeometry relative="1" x="0.5774" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="380" y="288" />
+              <mxPoint x="380" y="440" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_C9JWqe0jPJ9WMGEOEnl-208" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="PROD resources" vertex="1">
-          <mxGeometry height="50" width="120" x="10" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_C9JWqe0jPJ9WMGEOEnl-209" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="TEST resources" vertex="1">
-          <mxGeometry height="50" width="120" x="10" y="155" as="geometry" />
+        <mxCell id="_C9JWqe0jPJ9WMGEOEnl-208" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="PROD/TEST/DEV AWS resources" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="250" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-210" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="CENTRAL resources" vertex="1">
-          <mxGeometry height="50" width="120" x="10" y="210" as="geometry" />
+          <mxGeometry height="50" width="120" x="30" y="320" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-211" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=0;whiteSpace=wrap;html=1;" value="ENDPOINT resources" vertex="1">
-          <mxGeometry height="50" width="120" x="10" y="270" as="geometry" />
+          <mxGeometry height="50" width="120" x="30" y="390" as="geometry" />
         </mxCell>
         <mxCell id="_C9JWqe0jPJ9WMGEOEnl-213" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=1;whiteSpace=wrap;html=1;" value="AWS IGW&lt;div&gt;(Internet for specific CIDR)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="160" x="390" y="120" as="geometry" />
+          <mxGeometry height="40" width="160" x="850" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-10" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="Oap0ZpMKJ24YHws0dRKr-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="_C9JWqe0jPJ9WMGEOEnl-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-9" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="TGW Attach RT:&lt;div&gt;Routes 0.0.0.0 -&amp;gt; INSPECT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="830" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-14" edge="1" parent="_C9JWqe0jPJ9WMGEOEnl-167" source="Oap0ZpMKJ24YHws0dRKr-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="_C9JWqe0jPJ9WMGEOEnl-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oap0ZpMKJ24YHws0dRKr-13" parent="_C9JWqe0jPJ9WMGEOEnl-167" style="rounded=1;whiteSpace=wrap;html=1;" value="TGW attach subnet&lt;div&gt;Routes 0.0.0.0 -&amp;gt; FW ENI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="830" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
